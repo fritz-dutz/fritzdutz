@@ -1,12 +1,14 @@
+import heroImage from "@/assets/hero-image.png";
+
 const Logo = () => {
   return (
     <div className="relative w-full aspect-[4/3] overflow-hidden">
       {/* Video/Image background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-600/80 via-yellow-500/60 to-amber-700/70">
+      <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&auto=format&fit=crop"
-          alt="Sports crowd"
-          className="w-full h-full object-cover opacity-80 mix-blend-overlay"
+          src={heroImage}
+          alt="Hero"
+          className="w-full h-full object-cover"
         />
       </div>
       
