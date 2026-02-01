@@ -15,9 +15,7 @@ const stats: Stat[] = [{
 const StatsTable = () => {
   return <div className="w-full">
       
-      <div className="border-t border-border">
-        {stats.map((stat, index) => {})}
-      </div>
+      
     </div>;
 };
 export default StatsTable;
