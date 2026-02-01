@@ -5,7 +5,7 @@ import StatsTable from "@/components/StatsTable";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="max-w-lg mx-auto px-6 py-12 md:py-20">
+      <div className="max-w-md mx-auto px-6 py-12 md:py-20">
         {/* Logo Section */}
         <Logo />
 
