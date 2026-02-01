@@ -16,10 +16,7 @@ const StatsTable = () => {
   return <div className="w-full">
       
       <div className="border-t border-border">
-        {stats.map((stat, index) => <div key={index} className="flex justify-between items-center py-4 border-b border-border">
-            <span className="text-sm font-mono text-foreground">{stat.label}</span>
-            <span className="text-2xl font-semibold text-foreground tracking-tight">{stat.value}</span>
-          </div>)}
+        {stats.map((stat, index) => {})}
       </div>
     </div>;
 };
