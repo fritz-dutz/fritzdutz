@@ -27,14 +27,14 @@ const Index = () => {
               href="#" 
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
-              Join us
+              Experience
             </a>
             <span className="text-muted-foreground">•</span>
             <a 
               href="#" 
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
-              Playbooks
+              Blogs
             </a>
           </div>
         </div>
