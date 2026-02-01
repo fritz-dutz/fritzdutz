@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <div className="relative w-full max-w-md mx-auto aspect-[4/3] overflow-hidden">
+    <div className="relative w-full aspect-[4/3] overflow-hidden">
       {/* Video/Image background */}
       <div className="absolute inset-0 bg-gradient-to-br from-amber-600/80 via-yellow-500/60 to-amber-700/70">
         <img
