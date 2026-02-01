@@ -11,27 +11,42 @@ const Index = () => {
 
         {/* Content Section */}
         <div className="mt-10 space-y-6">
-        {/* Mission Statement */}
+          {/* Bio */}
           <p className="text-xs leading-relaxed">
-            <span className="font-semibold">Oleve</span> is building a family of iconic consumer software products that enable everyone to live a better, more fulfilling, and more productive life.
+            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ NAP.
           </p>
 
-          {/* Description */}
           <p className="text-xs leading-relaxed text-foreground/90">
-            We're a small, focused team in NYC who've cracked the code on building and scaling products people actually want. With two products already serving millions of users, we're gearing up to launch several more across different categories in 2025.
+            NAP is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe -often pre-product, pre-revenue.
+          </p>
+
+          <p className="text-xs leading-relaxed text-foreground/90">
+            Previously worked heavily on the Operator side, with stints at Enpal, Colonia & Marienpark and studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
+          </p>
+
+          <p className="text-xs leading-relaxed text-foreground/90">
+            Roots in Germany & Thailand, but raised in Ho Chi Minh City. Born a total foodie, I document what I eat @pantrybyfritz on Instagram.
+          </p>
+
+          <p className="text-xs leading-relaxed text-foreground/90">
+            Best place to reach me is under my email fritz@nap.vc. Open to collaboration of any sort.
           </p>
 
           {/* Links */}
           <div className="flex items-center gap-2 text-xs">
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/frederick-dutz/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
               Experience
             </a>
             <span className="text-muted-foreground">•</span>
             <a 
-              href="#" 
+              href="https://fritzd.substack.com/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
               Blogs
