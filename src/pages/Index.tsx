@@ -1,11 +1,53 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Logo from "@/components/Logo";
+import ProductTags from "@/components/ProductTags";
+import StatsTable from "@/components/StatsTable";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="max-w-lg mx-auto px-6 py-12 md:py-20">
+        {/* Logo Section */}
+        <Logo />
+
+        {/* Content Section */}
+        <div className="mt-10 space-y-6">
+          {/* Mission Statement */}
+          <p className="text-lg leading-relaxed">
+            <span className="font-semibold">Oleve</span> is building a family of iconic consumer software products that enable everyone to live a better, more fulfilling, and more productive life.
+          </p>
+
+          {/* Description */}
+          <p className="text-lg leading-relaxed text-foreground/90">
+            We're a small, focused team in NYC who've cracked the code on building and scaling products people actually want. With two products already serving millions of users, we're gearing up to launch several more across different categories in 2025.
+          </p>
+
+          {/* Links */}
+          <div className="flex items-center gap-2 text-lg">
+            <a 
+              href="#" 
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Join us
+            </a>
+            <span className="text-muted-foreground">•</span>
+            <a 
+              href="#" 
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Playbooks
+            </a>
+          </div>
+        </div>
+
+        {/* Products Section */}
+        <div className="mt-12">
+          <ProductTags />
+        </div>
+
+        {/* Stats Section */}
+        <div className="mt-10">
+          <StatsTable />
+        </div>
       </div>
     </div>
   );
