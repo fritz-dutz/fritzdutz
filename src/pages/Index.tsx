@@ -17,11 +17,11 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            NAP is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe -often pre-product, pre-revenue.
+            NAP is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe - often pre-product, pre-revenue.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Previously worked heavily on the Operator side, with stints at Enpal, Colonia & Marienpark and studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
+            Previously worked heavily on the Operator side, with stints at Enpal, Colonia & Investa and studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
