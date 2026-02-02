@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "@/components/Logo";
 import ProductTags from "@/components/ProductTags";
 import StatsTable from "@/components/StatsTable";
@@ -43,14 +44,12 @@ const Index = () => {
               Experience
             </a>
             <span className="text-muted-foreground">•</span>
-            <a 
-              href="https://fritzd.substack.com/" 
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link 
+              to="/blogs"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
               Blogs
-            </a>
+            </Link>
           </div>
         </div>
 
