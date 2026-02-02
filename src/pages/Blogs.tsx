@@ -42,7 +42,7 @@ const Blogs = () => {
 
         {/* Blog List */}
         <div className="mt-10">
-          <p className="text-xs text-muted-foreground mb-4">Available blogs</p>
+          <p className="text-xs text-muted-foreground mb-4">My pieces :)</p>
           
           <div className="border-t border-border">
             {blogs.map((blog, index) => (
