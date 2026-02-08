@@ -49,13 +49,15 @@ const Index = () => {
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
               Blogs
-               </Link>
-    href="https://x.com/fritz_dutz"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="underline underline-offset-4 hover:opacity-70 transition-opacity"
-  >
-    X
+            </Link>
+            <span className="text-muted-foreground">•</span>
+            <a 
+              href="https://x.com/fritz_dutz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              X
             </a>
           </div>
         </div>
