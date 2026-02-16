@@ -53,21 +53,16 @@ const Experience = () => {
 
           <div className="border-t border-border">
             {experience.map((item, index) => (
-              <a
+              <div
                 key={index}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start justify-between gap-4 py-4 border-b border-border hover:opacity-70 transition-opacity group"
+                className="py-4 border-b border-border"
               >
-                <div className="flex-1">
-                  <h3 className="text-sm font-medium leading-snug">
-                    {item.company} <span className="text-muted-foreground font-normal">— {item.role}</span>
-                  </h3>
-                  <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
-                </div>
-                <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">↗</span>
-              </a>
+                <h3 className="text-xs font-medium leading-snug">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">{item.company}</a>
+                  <span className="text-muted-foreground font-normal"> - {item.role}</span>
+                </h3>
+                <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -78,19 +73,15 @@ const Experience = () => {
 
           <div className="border-t border-border">
             {projects.map((item, index) => (
-              <a
+              <div
                 key={index}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start justify-between gap-4 py-4 border-b border-border hover:opacity-70 transition-opacity group"
+                className="py-4 border-b border-border"
               >
-                <div className="flex-1">
-                  <h3 className="text-sm font-medium leading-snug">{item.name}</h3>
-                  <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
-                </div>
-                <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">↗</span>
-              </a>
+                <h3 className="text-xs font-medium leading-snug">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">{item.name}</a>
+                </h3>
+                <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
+              </div>
             ))}
           </div>
         </div>
