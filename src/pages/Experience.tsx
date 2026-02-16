@@ -8,16 +8,16 @@ const experience = [
     description: "Worked hard towards this position",
   },
   {
-    company: "Investa Real Estate",
+    company: "Investa",
     url: "https://investa.de/",
     role: "Strategy & Ops",
-    description: "Worked under Dr. Christian Meine (Balances IQ & EQ like no one else)",
+    description: "Worked under Dr. Christian Meine on the Marienpark",
   },
   {
     company: "Enpal",
     url: "https://www.enpal.de/",
-    role: "Operations (CGO Office)",
-    description: "Worked under Julius (YC F25 Founder) & Dr. Constantin Steigmiller (Director Delivery Hero)",
+    role: "Operations CGO Office",
+    description: "Worked under Julius (YC F25 Founder) & Dr. Constantin Steigmiller",
   },
   {
     company: "Colonia",
@@ -58,7 +58,7 @@ const Experience = () => {
                 className="py-4 border-b border-border"
               >
                 <h3 className="text-xs font-medium leading-snug">
-                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">{item.company}</a>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">{item.company}</a>
                   <span className="text-muted-foreground font-normal"> - {item.role}</span>
                 </h3>
                 <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
@@ -78,7 +78,7 @@ const Experience = () => {
                 className="py-4 border-b border-border"
               >
                 <h3 className="text-xs font-medium leading-snug">
-                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">{item.name}</a>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">{item.name}</a>
                 </h3>
                 <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
               </div>
