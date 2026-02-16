@@ -35,14 +35,12 @@ const Index = () => {
 
           {/* Links */}
           <div className="flex items-center gap-2 text-xs">
-            <a 
-              href="https://www.linkedin.com/in/frederick-dutz/" 
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link 
+              to="/experience"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
               Experience
-            </a>
+            </Link>
             <span className="text-muted-foreground">•</span>
             <Link 
               to="/blogs"
