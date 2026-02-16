@@ -54,7 +54,7 @@ const Blogs = () => {
                 className="flex items-start justify-between gap-4 py-4 border-b border-border hover:opacity-70 transition-opacity group"
               >
                 <div className="flex-1">
-                  <h3 className="text-sm font-medium leading-snug">{blog.title}</h3>
+                  <h3 className="text-xs font-medium leading-snug">{blog.title}</h3>
                   <p className="text-xs text-muted-foreground mt-1">{blog.emoji}</p>
                 </div>
                 <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">↗</span>
