@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
+import { ReactNode } from "react";
 
-const experience = [
+interface ExperienceItem {
+  company: string;
+  url: string;
+  role: string;
+  description: ReactNode;
+}
+
+const experience: ExperienceItem[] = [
   {
     company: "NAP",
     url: "https://www.nap.vc/",
@@ -11,7 +19,7 @@ const experience = [
     company: "Investa",
     url: "https://investa.de/",
     role: "Strategy & Ops",
-    description: "Worked under Dr. Christian Meine on the Marienpark",
+    description: <>Worked under Dr. Christian Meine & <a href="https://danielgroner.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Daniel Groner</a></>,
   },
   {
     company: "Enpal",
@@ -23,7 +31,7 @@ const experience = [
     company: "Colonia",
     url: "https://checkandrent.com/",
     role: "RevOps & Product",
-    description: "Worked directly with both Jakob Sadoun & Kaspar Filipp",
+    description: "Worked directly with Founders, Jakob Sadoun & Kaspar Filipp",
   },
 ];
 
