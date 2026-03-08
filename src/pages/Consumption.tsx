@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const peopleIAdmire = [
-  { name: "Ivan Zhao", url: "https://ivanhzhao.notion.site/", description: "" },
+  { name: "Ivan Zhao (Co-Founder Notion)", url: "https://ivanhzhao.notion.site/", description: "" },
   { name: "Anthony Bourdain", url: "https://www.youtube.com/watch?v=vPlPKlCzsrw", description: "" },
   { name: "Madeline Lawrence", url: "https://x.com/madelinelawren", description: "" },
   { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
