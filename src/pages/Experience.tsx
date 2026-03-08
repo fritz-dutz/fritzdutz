@@ -13,7 +13,7 @@ const experience: ExperienceItem[] = [
     company: "NAP",
     url: "https://www.nap.vc/",
     role: "Visiting Analyst",
-    description: "Worked hard towards this position",
+    description: "Working hard at my dream job",
   },
   {
     company: "Investa",
