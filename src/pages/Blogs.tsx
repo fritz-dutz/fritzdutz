@@ -42,7 +42,7 @@ const Blogs = () => {
 
         {/* Blog List */}
         <div className="mt-10">
-          <p className="text-xs text-muted-foreground mb-4">My pieces</p>
+          <a href="https://fritzd.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground mb-4 block hover:opacity-70 transition-opacity">Subscribe</a>
           
           <div className="border-t border-border">
             {blogs.map((blog, index) => (
