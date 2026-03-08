@@ -20,12 +20,12 @@ const standOuts = [
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
   <div className="mt-10">
-    <p className="text-xs text-muted-foreground mb-2">{title}</p>
+        <p className="text-xs text-muted-foreground mb-2">{title}</p>
     <div className="border-t border-border pt-3">
       <ul className="space-y-1">
         {items.map((item, index) => (
-          <li key={index} className="flex items-center gap-2">
-            <span className="text-xs">•</span>
+          <li key={index} className="flex items-baseline gap-2">
+            <span className="text-xs leading-none relative top-[-1px]">•</span>
             <div>
               <span className="text-xs font-medium leading-snug">
                 {item.url ? (
@@ -58,7 +58,7 @@ const Consumption = () => {
           ← Back
         </Link>
 
-        <Section title="My thought leaders" items={peopleIAdmire} />
+        <Section title="People I admire" items={peopleIAdmire} />
         <Section title="Reading & listening" items={readingAndListening} />
         <Section title="Stand outs" items={standOuts} />
       </div>
