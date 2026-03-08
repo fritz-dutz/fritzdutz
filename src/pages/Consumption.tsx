@@ -58,7 +58,7 @@ const Consumption = () => {
           ← Back
         </Link>
 
-        <Section title="My thought leaders" items={peopleIAdmire} />
+        <Section title="People I admire" items={peopleIAdmire} />
         <Section title="Reading & listening" items={readingAndListening} />
         <Section title="Stand outs" items={standOuts} />
       </div>
