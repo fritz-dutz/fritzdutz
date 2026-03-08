@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const peopleIAdmire = [
-  { name: "Ivan Zhao (Co-Founder Notion)", url: "https://ivanhzhao.notion.site/", description: "" },
-  { name: "Anthony Bourdain (Culinary legend)", url: "https://www.youtube.com/watch?v=vPlPKlCzsrw", description: "" },
+  { name: "Ivan Zhao", url: "https://ivanhzhao.notion.site/", description: "" },
+  { name: "Anthony Bourdain", url: "https://www.youtube.com/watch?v=vPlPKlCzsrw", description: "" },
   { name: "Madeline Lawrence", url: "https://x.com/madelinelawren", description: "" },
-  { name: "Andy Zingler (Food influencer)", url: "https://www.instagram.com/andyzingler/", description: "" },
+  { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
 ];
 
 const readingAndListening = [
@@ -22,8 +22,8 @@ const Section = ({ title, items }: { title: string; items: { name: string; url?:
     <div className="border-t border-border pt-3">
       <ul className="space-y-1">
         {items.map((item, index) => (
-          <li key={index} className="flex items-baseline gap-2">
-            <span className="text-[8px] leading-none">•</span>
+          <li key={index} className="flex items-center gap-2">
+            <span className="text-xs">•</span>
             <div>
               <span className="text-xs font-medium leading-snug">
                 {item.url ? (
