@@ -46,7 +46,7 @@ const Index = () => {
               to="/blogs"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
-              Blogs
+              Writing
             </Link>
             <span className="text-muted-foreground">•</span>
             <Link 
