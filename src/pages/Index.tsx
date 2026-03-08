@@ -53,7 +53,7 @@ const Index = () => {
               to="/consumption"
               className="underline underline-offset-4 hover:opacity-70 transition-opacity"
             >
-              Consumption
+              Consuming
             </Link>
             <span className="text-muted-foreground">•</span>
             <a 
