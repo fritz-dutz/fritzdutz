@@ -31,7 +31,7 @@ const experience: ExperienceItem[] = [
     company: "Colonia",
     url: "https://checkandrent.com/",
     role: "RevOps & Product",
-    description: "Worked directly with Founders, Jakob Sadoun & Kaspar Filipp",
+    description: "Worked under Founders, Jakob Sadoun & Kaspar Filipp",
   },
 ];
 
