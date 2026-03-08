@@ -49,6 +49,13 @@ const Index = () => {
               Blogs
             </Link>
             <span className="text-muted-foreground">•</span>
+            <Link 
+              to="/consumption"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Consumption
+            </Link>
+            <span className="text-muted-foreground">•</span>
             <a 
               href="https://x.com/fritz_dutz"
               target="_blank"
