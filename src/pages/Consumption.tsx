@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 
 const peopleIAdmire = [
-  { name: "Coming soon", description: "" },
+  { name: "Ivan Zhao", url: "https://ivanhzhao.notion.site/", description: "" },
+  { name: "Anthony Bourdain", url: "https://www.youtube.com/watch?v=vPlPKlCzsrw", description: "" },
+  { name: "Madeline Lawrence", url: "https://x.com/madelinelawren", description: "" },
+  { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
 ];
 
 const readingAndListening = [
-  { name: "Coming soon", description: "" },
+  { name: "NAP Log", url: "https://naplog.substack.com/", description: "" },
+  { name: "Jannik Schilling", url: "https://www.jannikschilling.com/writing/", description: "" },
 ];
 
 const standOuts = [
