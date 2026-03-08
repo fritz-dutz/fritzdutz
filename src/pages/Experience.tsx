@@ -13,7 +13,7 @@ const experience: ExperienceItem[] = [
     company: "NAP",
     url: "https://www.nap.vc/",
     role: "Visiting Analyst",
-    description: "Worked hard towards this position",
+    description: "Working hard at my dream job",
   },
   {
     company: "Investa",
@@ -31,7 +31,7 @@ const experience: ExperienceItem[] = [
     company: "Colonia",
     url: "https://checkandrent.com/",
     role: "RevOps & Product",
-    description: "Worked directly with Founders, Jakob Sadoun & Kaspar Filipp",
+    description: "Worked under Founders, Jakob Sadoun & Kaspar Filipp",
   },
 ];
 
@@ -40,6 +40,11 @@ const projects = [
     name: "Wiggle",
     url: "https://github.com/Konsequanzheng/wiggle",
     description: "AI-Powered 3D Interactive Animation Design Platform",
+  },
+  {
+    name: "Koti",
+    url: "https://www.canva.com/design/DAGWp7E2Luc/sn6Zv7iWeVuw38hVmzlKYw/view?",
+    description: "PM Platform for the Construction Industry",
   },
 ];
 
