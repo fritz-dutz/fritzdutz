@@ -19,27 +19,29 @@ const standOuts = [
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
   <div className="mt-10">
     <p className="text-xs text-muted-foreground mb-2">{title}</p>
-    <ul className="space-y-1">
-      {items.map((item, index) => (
-        <li key={index} className="flex items-start gap-2">
-          <span className="text-xs leading-snug mt-px">•</span>
-          <div>
-            <span className="text-xs font-medium leading-snug">
-              {item.url ? (
-                <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
-                  {item.name}
-                </a>
-              ) : (
-                item.name
+    <div className="border-t border-border pt-3">
+      <ul className="space-y-1">
+        {items.map((item, index) => (
+          <li key={index} className="flex items-center gap-2">
+            <span className="text-xs">•</span>
+            <div>
+              <span className="text-xs font-medium leading-snug">
+                {item.url ? (
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+                    {item.name}
+                  </a>
+                ) : (
+                  item.name
+                )}
+              </span>
+              {item.description && (
+                <p className="text-xs text-muted-foreground mt-0.5">{item.description}</p>
               )}
-            </span>
-            {item.description && (
-              <p className="text-xs text-muted-foreground mt-0.5">{item.description}</p>
-            )}
-          </div>
-        </li>
-      ))}
-    </ul>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   </div>
 );
 
