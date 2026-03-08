@@ -41,6 +41,11 @@ const projects = [
     url: "https://github.com/Konsequanzheng/wiggle",
     description: "AI-Powered 3D Interactive Animation Design Platform",
   },
+  {
+    name: "Koti",
+    url: "https://www.canva.com/design/DAGWp7E2Luc/sn6Zv7iWeVuw38hVmzlKYw/view?",
+    description: "PM Platform for the Construction Industry",
+  },
 ];
 
 const Experience = () => {
