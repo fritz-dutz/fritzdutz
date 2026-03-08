@@ -18,25 +18,28 @@ const standOuts = [
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
   <div className="mt-10">
-    <p className="text-xs text-muted-foreground mb-4">{title}</p>
-    <div className="border-t border-border">
+    <p className="text-xs text-muted-foreground mb-2">{title}</p>
+    <ul className="space-y-1">
       {items.map((item, index) => (
-        <div key={index} className="py-4 border-b border-border">
-          <h3 className="text-xs font-medium leading-snug">
-            {item.url ? (
-              <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
-                {item.name}
-              </a>
-            ) : (
-              item.name
+        <li key={index} className="flex items-start gap-2">
+          <span className="text-xs leading-snug mt-px">•</span>
+          <div>
+            <span className="text-xs font-medium leading-snug">
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+                  {item.name}
+                </a>
+              ) : (
+                item.name
+              )}
+            </span>
+            {item.description && (
+              <p className="text-xs text-muted-foreground mt-0.5">{item.description}</p>
             )}
-          </h3>
-          {item.description && (
-            <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
-          )}
-        </div>
+          </div>
+        </li>
       ))}
-    </div>
+    </ul>
   </div>
 );
 
