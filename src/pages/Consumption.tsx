@@ -20,7 +20,7 @@ const standOuts = [
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
   <div className="mt-10">
-    <p className="text-xs text-muted-foreground mb-2">{title}</p>
+        <p className="text-xs text-muted-foreground mb-2">{title}</p>
     <div className="border-t border-border pt-3">
       <ul className="space-y-1">
         {items.map((item, index) => (
