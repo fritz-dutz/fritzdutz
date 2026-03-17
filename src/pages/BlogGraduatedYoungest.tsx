@@ -22,10 +22,10 @@ const BlogGraduatedYoungest = () => {
 
           {/* Section summaries */}
           <div className="space-y-1">
-            <p className="text-xs leading-relaxed">The fine line of yes's & no's.</p>
-            <p className="text-xs leading-relaxed">Asia vs the world.</p>
-            <p className="text-xs leading-relaxed">Abusing your academic status.</p>
-            <p className="text-xs leading-relaxed">A further refinement for what truly matters.</p>
+            <p className="text-xs leading-relaxed">1. The fine line of yes's & no's.</p>
+            <p className="text-xs leading-relaxed">2. Asia vs the world.</p>
+            <p className="text-xs leading-relaxed">3. Abusing your academic status.</p>
+            <p className="text-xs leading-relaxed">4. A further refinement for what truly matters.</p>
           </div>
 
           <hr className="border-border" />
