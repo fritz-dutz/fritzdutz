@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Blogs from "./pages/Blogs";
 import BlogGraduatedYoungest from "./pages/BlogGraduatedYoungest";
+import BlogMsKaren from "./pages/BlogMsKaren";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
