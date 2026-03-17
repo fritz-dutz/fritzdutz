@@ -9,7 +9,7 @@ const blogs = [
   {
     title: "What it's like being raised by ms.karen",
     emoji: "🫂",
-    externalUrl: "https://open.substack.com/pub/fritzd/p/a-message-to-mskaren?",
+    internalUrl: "/blogs/ms-karen",
   },
   {
     title: "What i learned during my semester abroad at tsinghua",
