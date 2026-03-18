@@ -14,7 +14,7 @@ const blogs = [
   {
     title: "What i learned during my semester abroad at tsinghua",
     emoji: "🇨🇳",
-    externalUrl: "https://open.substack.com/pub/fritzd/p/what-i-learned-during-my-semester?",
+    internalUrl: "/blogs/tsinghua",
   },
   {
     title: "10 lessons from 3 months at an early-stage start up",
@@ -45,39 +45,18 @@ const Blogs = () => {
           <a href="https://fritzd.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground mb-4 block hover:opacity-70 transition-opacity">Subscribe</a>
           
           <div className="border-t border-border">
-            {blogs.map((blog, index) => {
-              const content = (
+            {blogs.map((blog, index) => (
+              <Link
+                key={index}
+                to={blog.internalUrl}
+                className="block border-b border-border hover:opacity-70 transition-opacity"
+              >
                 <div className="flex-1 py-4">
                   <h3 className="text-xs font-medium leading-snug">{blog.title}</h3>
                   <p className="text-xs text-muted-foreground mt-1">{blog.emoji}</p>
                 </div>
-              );
-
-              if (blog.internalUrl) {
-                return (
-                  <Link
-                    key={index}
-                    to={blog.internalUrl}
-                    className="block border-b border-border hover:opacity-70 transition-opacity"
-                  >
-                    {content}
-                  </Link>
-                );
-              }
-
-              return (
-                <a
-                  key={index}
-                  href={blog.externalUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start justify-between gap-4 border-b border-border hover:opacity-70 transition-opacity group"
-                >
-                  {content}
-                  <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors py-4">↗</span>
-                </a>
-              );
-            })}
+              </Link>
+            ))}
           </div>
         </div>
       </div>

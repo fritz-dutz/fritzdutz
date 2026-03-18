@@ -9,6 +9,7 @@ import BlogGraduatedYoungest from "./pages/BlogGraduatedYoungest";
 import BlogMsKaren from "./pages/BlogMsKaren";
 import BlogStartupLessons from "./pages/BlogStartupLessons";
 import BlogHalfMarathon from "./pages/BlogHalfMarathon";
+import BlogTsinghua from "./pages/BlogTsinghua";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/blogs/ms-karen" element={<BlogMsKaren />} />
           <Route path="/blogs/startup-lessons" element={<BlogStartupLessons />} />
           <Route path="/blogs/half-marathon" element={<BlogHalfMarathon />} />
+          <Route path="/blogs/tsinghua" element={<BlogTsinghua />} />
           <Route path="/consumption" element={<Consumption />} />
           <Route path="/experience" element={<Experience />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
