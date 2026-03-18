@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Blogs from "./pages/Blogs";
 import BlogGraduatedYoungest from "./pages/BlogGraduatedYoungest";
 import BlogMsKaren from "./pages/BlogMsKaren";
+import BlogStartupLessons from "./pages/BlogStartupLessons";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
