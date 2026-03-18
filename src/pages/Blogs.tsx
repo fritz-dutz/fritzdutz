@@ -14,7 +14,7 @@ const blogs = [
   {
     title: "What i learned during my semester abroad at tsinghua",
     emoji: "🇨🇳",
-    externalUrl: "https://open.substack.com/pub/fritzd/p/what-i-learned-during-my-semester?",
+    internalUrl: "/blogs/tsinghua",
   },
   {
     title: "10 lessons from 3 months at an early-stage start up",
