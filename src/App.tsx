@@ -9,6 +9,7 @@ import BlogGraduatedYoungest from "./pages/BlogGraduatedYoungest";
 import BlogMsKaren from "./pages/BlogMsKaren";
 import BlogStartupLessons from "./pages/BlogStartupLessons";
 import BlogHalfMarathon from "./pages/BlogHalfMarathon";
+import BlogTsinghua from "./pages/BlogTsinghua";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
