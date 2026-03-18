@@ -24,7 +24,7 @@ const blogs = [
   {
     title: "Five life lessons from my first half-marathon",
     emoji: "🏃🏽‍♂️",
-    externalUrl: "https://open.substack.com/pub/fritzd/p/five-life-lessons-from-my-first-half?",
+    internalUrl: "/blogs/half-marathon",
   },
 ];
 
