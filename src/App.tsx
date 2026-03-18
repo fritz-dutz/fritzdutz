@@ -8,6 +8,7 @@ import Blogs from "./pages/Blogs";
 import BlogGraduatedYoungest from "./pages/BlogGraduatedYoungest";
 import BlogMsKaren from "./pages/BlogMsKaren";
 import BlogStartupLessons from "./pages/BlogStartupLessons";
+import BlogHalfMarathon from "./pages/BlogHalfMarathon";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound";
