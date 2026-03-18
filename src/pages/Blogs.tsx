@@ -19,7 +19,7 @@ const blogs = [
   {
     title: "10 lessons from 3 months at an early-stage start up",
     emoji: "🚀",
-    externalUrl: "https://open.substack.com/pub/fritzd/p/10-lessons-from-3-months-at-an-early?",
+    internalUrl: "/blogs/startup-lessons",
   },
   {
     title: "Five life lessons from my first half-marathon",
