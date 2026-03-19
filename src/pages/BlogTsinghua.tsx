@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import tsinghuaFriends from "@/assets/tsinghua-friends.webp";
 
 const BlogTsinghua = () => {
   return (
@@ -44,6 +45,8 @@ const BlogTsinghua = () => {
               <li>hanging on to the previous point, these boys have showed me what is like to have a heavily positive mindset through anything. this outlook has certainly contaminated those around them. again, your mindset dictates the way you approach life, so you certainly don't want to be imprisoned by a heavily negative one.</li>
               <li>that is okay to be spontaneous. i am a man who loves my routine & habit, making it difficult for me to engage in spontaneous sh*t. however, the best memories and people come unexpected, so don't be so stuck in a shell that you never leave your comfort zone!</li>
             </ul>
+
+            <img src={tsinghuaFriends} alt="Friends during semester abroad at Tsinghua" className="w-full rounded-md" />
 
             <p className="text-xs leading-relaxed italic">
               +alvaro, max, mario, karim
