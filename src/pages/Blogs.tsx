@@ -17,7 +17,7 @@ const blogs = [
     internalUrl: "/blogs/ms-karen",
   },
   {
-    title: "What i learned during my semester abroad at tsinghua",
+    title: "What I learned during my semester abroad at tsinghua",
     emoji: "🇨🇳",
     internalUrl: "/blogs/tsinghua",
   },
