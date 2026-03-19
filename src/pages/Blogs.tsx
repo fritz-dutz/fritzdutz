@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    title: "the super analyst",
+    emoji: "🪄",
+    internalUrl: "/blogs/super-analyst",
+  },
+  {
     title: "Graduated youngest in my class & this is what I took away",
     emoji: "🎓",
     internalUrl: "/blogs/graduated-youngest",
