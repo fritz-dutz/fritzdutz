@@ -7,8 +7,8 @@ const BlogTsinghua = () => {
       <div className="max-w-md mx-auto px-6 py-12 md:py-20">
         <Link
           to="/blogs"
-          className="inline-flex items-center gap-1 text-xs underline underline-offset-4 hover:opacity-70 transition-opacity"
-        >
+          className="inline-flex items-center gap-1 text-xs underline underline-offset-4 hover:opacity-70 transition-opacity">
+          
           ← Back
         </Link>
 
@@ -48,7 +48,7 @@ const BlogTsinghua = () => {
 
             <img src={tsinghuaFriends} alt="Friends during semester abroad at Tsinghua" className="w-full rounded-md" />
 
-            <p className="text-xs leading-relaxed italic">
+            <p className="text-xs leading-relaxed italic text-center">
               +alvaro, max, mario, karim
             </p>
 
@@ -72,8 +72,8 @@ const BlogTsinghua = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default BlogTsinghua;
