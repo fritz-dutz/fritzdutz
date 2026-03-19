@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import marathonFinish from "@/assets/marathon-finish.webp";
+import marathonDan from "@/assets/marathon-dan.webp";
 
 const BlogHalfMarathon = () => {
   return (
@@ -46,6 +48,9 @@ const BlogHalfMarathon = () => {
             <p className="text-xs leading-relaxed">
               I hope that the biggest 5 life lessons I have learned from running this far has given you something valuable to consider. I am also looking forward to improving my running journey and see where it brings me. I'd love to also hear any life lessons you've learned from running :)
             </p>
+
+            <img src={marathonFinish} alt="Crossing the finish line with Emmanuel" className="w-4/5 mx-auto rounded-md" />
+            <img src={marathonDan} alt="Post-race selfie with Dan" className="w-4/5 mx-auto rounded-md" />
 
             <p className="text-xs leading-relaxed italic">
               (Emmanuel - the kind of person you need in life, thanks for pacing me!)
