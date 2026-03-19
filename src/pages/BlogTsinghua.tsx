@@ -67,6 +67,8 @@ const BlogTsinghua = () => {
               to sum up why china came into question, spending half a year their was an extremely valuable experience for my personal growth, capturing life-long memories and developing my business sense. have i not gone out of my comfort zone or listened to other people who questioned my choice, i would not have been able to experience all this. i hope with this article i was able to open up a new perspective or teach you a new lesson, if this has pushed you to visit china - feel free to message me if you are in need of any tips! Xièxiè!
             </p>
 
+            <img src={chongqing} alt="Chongqing city at night" className="w-4/5 mx-auto rounded-md" />
+
             <p className="text-xs leading-relaxed italic">
               fav city in china (chongqing)
             </p>
