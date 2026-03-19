@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import marathonFinish from "@/assets/marathon-finish.webp";
+import marathonDan from "@/assets/marathon-dan.webp";
 
 const BlogHalfMarathon = () => {
   return (
