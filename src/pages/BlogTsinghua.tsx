@@ -69,7 +69,7 @@ const BlogTsinghua = () => {
 
             <img src={chongqing} alt="Chongqing city at night" className="w-4/5 mx-auto rounded-md" />
 
-            <p className="text-xs leading-relaxed italic">
+            <p className="text-xs leading-relaxed italic text-center">
               fav city in china (chongqing)
             </p>
           </div>
