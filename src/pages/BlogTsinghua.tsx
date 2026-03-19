@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import tsinghuaFriends from "@/assets/tsinghua-friends.webp";
 
 const BlogTsinghua = () => {
   return (
