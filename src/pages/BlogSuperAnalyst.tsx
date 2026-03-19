@@ -6,14 +6,14 @@ const BlogSuperAnalyst = () => {
       <div className="max-w-md mx-auto px-6 py-12 md:py-20">
         <Link
           to="/blogs"
-          className="inline-flex items-center gap-1 text-xs underline underline-offset-4 hover:opacity-70 transition-opacity"
-        >
+          className="inline-flex items-center gap-1 text-xs underline underline-offset-4 hover:opacity-70 transition-opacity">
+          
           ← Back
         </Link>
 
         <div className="mt-10 space-y-3">
           <p className="text-xs text-muted-foreground">Mar 17, 2026</p>
-          <h1 className="text-xs font-medium">the super analyst</h1>
+          <h1 className="font-medium text-sm">The super analyst</h1>
 
           <p className="text-xs leading-relaxed">
             As someone who is currently applying for full-time venture capital roles, I've been thinking a lot about what traits define a <strong>super analyst</strong> and wanted to get these thoughts down onto paper.
@@ -62,8 +62,8 @@ const BlogSuperAnalyst = () => {
           </p>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default BlogSuperAnalyst;
