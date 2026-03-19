@@ -46,7 +46,7 @@ const BlogTsinghua = () => {
               <li>that is okay to be spontaneous. i am a man who loves my routine & habit, making it difficult for me to engage in spontaneous sh*t. however, the best memories and people come unexpected, so don't be so stuck in a shell that you never leave your comfort zone!</li>
             </ul>
 
-            <img src={tsinghuaFriends} alt="Friends during semester abroad at Tsinghua" className="w-full rounded-md" />
+            <img src={tsinghuaFriends} alt="Friends during semester abroad at Tsinghua" className="w-4/5 mx-auto rounded-md" />
 
             <p className="text-xs leading-relaxed italic text-center">
               +alvaro, max, mario, karim
