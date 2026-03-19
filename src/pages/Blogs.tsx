@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    title: "the super analyst",
+    title: "The super analyst",
     emoji: "🪄",
     internalUrl: "/blogs/super-analyst",
   },
