@@ -1,14 +1,7 @@
-import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import Logo from "@/components/Logo";
 import ProductTags from "@/components/ProductTags";
 import StatsTable from "@/components/StatsTable";
-import { ArrowRight, Check } from "lucide-react";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
 
 const Index = () => {
   const [email, setEmail] = useState("");
