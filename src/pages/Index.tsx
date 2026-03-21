@@ -106,7 +106,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            I also send out weekly newsletters with deals & reads I come across. If that interests you, subscribe{" "}
+            I also send out weekly newsletters with curated deals & reads and occasionally write a longer blog. If that interests you, subscribe{" "}
             <Popover open={open} onOpenChange={handleOpenChange}>
               <PopoverTrigger asChild>
                 <button className="font-semibold hover:opacity-70 transition-opacity">
