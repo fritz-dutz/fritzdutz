@@ -47,7 +47,7 @@ const Blogs = () => {
 
         {/* Blog List */}
         <div className="mt-10">
-          <a href="https://fritzd.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground mb-4 block hover:opacity-70 transition-opacity">Subscribe</a>
+          <a href="https://fritzd.notion.site/32aed47507e18010b2b5f19774b713c2?pvs=105" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground mb-4 block hover:opacity-70 transition-opacity">Subscribe</a>
           
           <div className="border-t border-border">
             {blogs.map((blog, index) => (
