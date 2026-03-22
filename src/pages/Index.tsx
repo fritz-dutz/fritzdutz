@@ -28,7 +28,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            I also send out a bi-weekly email with curated deals & reads and occasionally write a longer blog. If that interests you, subscribe{" "}
+            I also send out bi-weekly emails with curated deals & reads and occasionally write a longer blog. If that interests you, you can subscribe{" "}
             <a
               href="https://fritzd.notion.site/32aed47507e18010b2b5f19774b713c2?pvs=105"
               target="_blank"
