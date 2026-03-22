@@ -18,6 +18,7 @@ const standOuts = [
   { name: "Steam, Steel, and Infinite minds by Ivan Zhao", url: "https://x.com/ivanhzhao/status/2003192654545539400?s=46", description: "" },
   { name: "The Great Dating Overthink by Maalvika", url: "https://open.substack.com/pub/maalvika/p/the-great-dating-overthink?", description: "" },
   { name: "On Rebel Theorem 4.0 by Jared Herman", url: "https://jaredheyman.medium.com/on-rebel-theorem-4-0-55d04b0732e3", description: "" },
+  { name: "I don't care about your AI agent by Timon Ruban", url: "https://bimon.dev/blog/i-dont-care-about-your-ai-agent", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
