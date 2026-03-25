@@ -68,7 +68,7 @@ const BlogSuperAnalyst = () => {
           </p>
 
           <p className="text-xs leading-relaxed">
-            2. Thanks <a href="https://www.linkedin.com/in/shrey-mittal-101/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">Shrey</a> for the contribution and proofreading this
+            2. Thanks <a href="https://www.linkedin.com/in/shrey-mittal-101/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Shrey</a> for the contribution and proofreading this
           </p>
 
           <p className="text-xs leading-relaxed">
