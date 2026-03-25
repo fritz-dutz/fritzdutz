@@ -61,7 +61,17 @@ const BlogSuperAnalyst = () => {
             Guess this all can be irrelevant if the basics are not there, but lets strive to be more than that :)
           </p>
 
-          <p className="text-xs leading-relaxed mt-4">
+          <hr className="border-border my-6" />
+
+          <p className="text-xs leading-relaxed">
+            1. Name inspired by Andre Retteraths Blog: Do You Still Need Analysts? The Investment Firm of 2030: Fewer People, Better Decisions
+          </p>
+
+          <p className="text-xs leading-relaxed">
+            2. Thanks <a href="https://www.linkedin.com/in/shrey-mittal-101/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">Shrey</a> for the contribution and proofreading this
+          </p>
+
+          <p className="text-xs leading-relaxed">
             3. After a lunch with our GP, <a href="https://www.linkedin.com/in/critter/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">Claude</a>, I believe this will be the biggest lever to becoming a Super analyst - knowing how to use all the relevant tools to becoming 10x. The Junior layer will never fully go away, but the sole number of juniors will significantly shrink and this is a way to truly stand out.
           </p>
         </div>
