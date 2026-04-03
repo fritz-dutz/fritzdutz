@@ -47,6 +47,9 @@ const BlogSuperAnalyst = () => {
               <strong>Curates a great digital library.</strong> Is selective about what they consume & from which thought leaders, while simultaneously staying on top of all trends and what is going on in the market.
             </li>
             <li className="text-xs leading-relaxed">
+              <strong>Forms opinions, holds them loosely.</strong> Essentially you get paid to have an opinion about certain markets, founders & products. It is important to shape your own opinions based on your compass, but to hold them loose for the humility to be wrong.
+            </li>
+            <li className="text-xs leading-relaxed">
               <strong>Has a specific wedge against other investors.</strong> What do you have that other investors do not or that might be hard to acquire. Is this a skill in a tool, access to a special pocket of network or expertise about a certain topic?
             </li>
             <li className="text-xs leading-relaxed">
