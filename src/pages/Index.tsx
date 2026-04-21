@@ -1,9 +1,50 @@
 import { Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import Logo from "@/components/Logo";
 import ProductTags from "@/components/ProductTags";
 import StatsTable from "@/components/StatsTable";
 
+const FONT_CYCLE = [
+  "'EB Garamond', serif",
+  "'Playfair Display', serif",
+  "'Cormorant Garamond', serif",
+  "'DM Serif Display', serif",
+  "'Libre Caslon Text', serif",
+  "'Fraunces', serif",
+  "'JetBrains Mono', monospace",
+];
+
 const Index = () => {
+  const [fontIndex, setFontIndex] = useState<number | null>(null);
+  const [italic, setItalic] = useState(false);
+  const intervalRef = useRef<number | null>(null);
+
+  const startCycling = () => {
+    if (intervalRef.current) return;
+    setFontIndex(Math.floor(Math.random() * FONT_CYCLE.length));
+    setItalic(Math.random() > 0.5);
+    intervalRef.current = window.setInterval(() => {
+      setFontIndex((prev) => {
+        let next = Math.floor(Math.random() * FONT_CYCLE.length);
+        if (next === prev) next = (next + 1) % FONT_CYCLE.length;
+        return next;
+      });
+      setItalic(Math.random() > 0.5);
+    }, 120);
+  };
+
+  const stopCycling = () => {
+    if (intervalRef.current) {
+      window.clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+    setFontIndex(null);
+    setItalic(false);
+  };
+
+  useEffect(() => () => {
+    if (intervalRef.current) window.clearInterval(intervalRef.current);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -12,7 +53,19 @@ const Index = () => {
 
         <div className="mt-10 space-y-6">
           <p className="text-xs leading-relaxed">
-            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ NAP.
+            <span
+              className="font-semibold cursor-pointer inline-block"
+              style={
+                fontIndex !== null
+                  ? { fontFamily: FONT_CYCLE[fontIndex], fontStyle: italic ? "italic" : "normal" }
+                  : undefined
+              }
+              onMouseEnter={startCycling}
+              onMouseLeave={stopCycling}
+            >
+              Fritz Dutz.
+            </span>{" "}
+            21 years old. Currently Visiting Investor @ NAP.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
