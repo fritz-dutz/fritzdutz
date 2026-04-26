@@ -46,6 +46,11 @@ const projects = [
     url: "https://www.canva.com/design/DAGWp7E2Luc/sn6Zv7iWeVuw38hVmzlKYw/view?",
     description: "PM Platform for the Construction Industry",
   },
+  {
+    name: "Clio",
+    url: "https://github.com/inin-zou/Clio/tree/main",
+    description: "Hackathon project",
+  },
 ];
 
 const Experience = () => {
