@@ -37,6 +37,11 @@ const experience: ExperienceItem[] = [
 
 const projects = [
   {
+    name: "Clio",
+    url: "https://github.com/inin-zou/Clio",
+    description: "Voice AI agent handling inbound insurance claim calls",
+  },
+  {
     name: "Wiggle",
     url: "https://github.com/Konsequanzheng/wiggle",
     description: "AI-Powered 3D Interactive Animation Design Platform",
@@ -45,11 +50,6 @@ const projects = [
     name: "Koti",
     url: "https://www.canva.com/design/DAGWp7E2Luc/sn6Zv7iWeVuw38hVmzlKYw/view?",
     description: "PM Platform for the Construction Industry",
-  },
-  {
-    name: "Clio",
-    url: "https://github.com/inin-zou/Clio/tree/main",
-    description: "Hackathon project",
   },
 ];
 
