@@ -12,7 +12,7 @@ const Index = () => {
 
         <div className="mt-10 space-y-6">
           <p className="text-xs leading-relaxed">
-            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ NAP.
+            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ <a href="https://nap.vc/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">NAP</a>.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
