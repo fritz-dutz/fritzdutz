@@ -1,1 +1,1 @@
-My Personal Website :)
+personal website :) experiences, blogs & recommended reads 
