@@ -19,7 +19,7 @@ const standOuts = [
   { name: "The Great Dating Overthink by Maalvika", url: "https://open.substack.com/pub/maalvika/p/the-great-dating-overthink?", description: "" },
   { name: "I don't care about your AI agent by Timon Ruban", url: "https://bimon.dev/blog/i-dont-care-about-your-ai-agent", description: "" },
   { name: "Style is consistent constraint by Steph Ango", url: "https://stephango.com/style", description: "" },
-  { name: "Breaking Europe's Perfectionism Addiction by Josef Chen", url: "https://josef.cn/blog/perfectionism", description: "" },
+  { name: "Europe's Perfectionism Addiction by Josef Chen", url: "https://josef.cn/blog/perfectionism", description: "" },
   { name: "The art of being unreachable by Alexis McElroy", url: "https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable", description: "" },
 ];
 
