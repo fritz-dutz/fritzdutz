@@ -19,6 +19,8 @@ const standOuts = [
   { name: "The Great Dating Overthink by Maalvika", url: "https://open.substack.com/pub/maalvika/p/the-great-dating-overthink?", description: "" },
   { name: "I don't care about your AI agent by Timon Ruban", url: "https://bimon.dev/blog/i-dont-care-about-your-ai-agent", description: "" },
   { name: "Style is consistent constraint by Steph Ango", url: "https://stephango.com/style", description: "" },
+  { name: "Perfectionism by Josef", url: "https://josef.cn/blog/perfectionism", description: "" },
+  { name: "The art of being unreachable by The Muse and the Melody", url: "https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
