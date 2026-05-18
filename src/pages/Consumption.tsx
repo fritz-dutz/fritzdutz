@@ -16,7 +16,7 @@ const readingAndListening = [
 
 const standOuts = [
   { name: "Steam, Steel, and Infinite minds by Ivan Zhao", url: "https://x.com/ivanhzhao/status/2003192654545539400?s=46", description: "" },
-  { name: "The Great Dating Overthink by Maalvika", url: "https://open.substack.com/pub/maalvika/p/the-great-dating-overthink?", description: "" },
+  { name: "The Great Dating Overthink by Maalvika", url: "https://maalvika.substack.com/p/the-great-dating-overthink", description: "" },
   { name: "I don't care about your AI agent by Timon Ruban", url: "https://bimon.dev/blog/i-dont-care-about-your-ai-agent", description: "" },
   { name: "Style is consistent constraint by Steph Ango", url: "https://stephango.com/style", description: "" },
   { name: "Europe's Perfectionism Addiction by Josef Chen", url: "https://josef.cn/blog/perfectionism", description: "" },
