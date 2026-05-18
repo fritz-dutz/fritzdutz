@@ -21,7 +21,7 @@ const standOuts = [
   { name: "Style is consistent constraint by Steph Ango", url: "https://stephango.com/style", description: "" },
   { name: "Europe's Perfectionism Addiction by Josef Chen", url: "https://josef.cn/blog/perfectionism", description: "" },
   { name: "The art of being unreachable by Alexis McElroy", url: "https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable", description: "" },
-  { name: "The epidemic of wasted talent by The Still Wandering", url: "https://open.substack.com/pub/thestillwandering/p/the-epidemic-of-wasted-talent", description: "" },
+  { name: "The epidemic of wasted talent by Alex McCann", url: "https://open.substack.com/pub/thestillwandering/p/the-epidemic-of-wasted-talent", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
