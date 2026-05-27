@@ -22,6 +22,7 @@ const standOuts = [
   { name: "Europe's Perfectionism Addiction by Josef Chen", url: "https://josef.cn/blog/perfectionism", description: "" },
   { name: "The art of being unreachable by Alexis McElroy", url: "https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable", description: "" },
   { name: "The epidemic of wasted talent by Alex McCann", url: "https://open.substack.com/pub/thestillwandering/p/the-epidemic-of-wasted-talent", description: "" },
+  { name: "How to make something great by Ryo Lu", url: "https://ryolu.notion.site/how-to-make-something-great", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
