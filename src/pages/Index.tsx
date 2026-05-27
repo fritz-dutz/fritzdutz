@@ -56,6 +56,10 @@ const Index = () => {
             <a href="https://x.com/fritz_dutz" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
               X
             </a>
+            <span className="text-muted-foreground">•</span>
+            <a href="https://github.com/fritz-dutz" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
+              Git
+            </a>
           </div>
         </div>
 
