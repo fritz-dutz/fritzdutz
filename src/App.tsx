@@ -26,15 +26,15 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blogs/super-analyst" element={<BlogSuperAnalyst />} />
-          <Route path="/blogs/ivan-browser" element={<BlogIvanBrowser />} />
-          <Route path="/blogs/graduated-youngest" element={<BlogGraduatedYoungest />} />
-          <Route path="/blogs/ms-karen" element={<BlogMsKaren />} />
-          <Route path="/blogs/startup-lessons" element={<BlogStartupLessons />} />
-          <Route path="/blogs/half-marathon" element={<BlogHalfMarathon />} />
-          <Route path="/blogs/tsinghua" element={<BlogTsinghua />} />
-          <Route path="/consumption" element={<Consumption />} />
+          <Route path="/writing" element={<Blogs />} />
+          <Route path="/writing/super-analyst" element={<BlogSuperAnalyst />} />
+          <Route path="/writing/ivan-browser" element={<BlogIvanBrowser />} />
+          <Route path="/writing/graduated-youngest" element={<BlogGraduatedYoungest />} />
+          <Route path="/writing/ms-karen" element={<BlogMsKaren />} />
+          <Route path="/writing/startup-lessons" element={<BlogStartupLessons />} />
+          <Route path="/writing/half-marathon" element={<BlogHalfMarathon />} />
+          <Route path="/writing/tsinghua" element={<BlogTsinghua />} />
+          <Route path="/consuming" element={<Consumption />} />
           <Route path="/experience" element={<Experience />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

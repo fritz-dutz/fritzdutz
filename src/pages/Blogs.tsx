@@ -4,37 +4,37 @@ const blogs = [
   {
     title: "If Ivan Zhao built a browser",
     emoji: "💾",
-    internalUrl: "/blogs/ivan-browser",
+    internalUrl: "/writing/ivan-browser",
   },
   {
     title: "The super analyst",
     emoji: "🪄",
-    internalUrl: "/blogs/super-analyst",
+    internalUrl: "/writing/super-analyst",
   },
   {
     title: "Graduated youngest in my class & this is what I took away",
     emoji: "🎓",
-    internalUrl: "/blogs/graduated-youngest",
+    internalUrl: "/writing/graduated-youngest",
   },
   {
     title: "What it's like being raised by ms.karen",
     emoji: "🫂",
-    internalUrl: "/blogs/ms-karen",
+    internalUrl: "/writing/ms-karen",
   },
   {
     title: "What I learned during my semester abroad at tsinghua",
     emoji: "🇨🇳",
-    internalUrl: "/blogs/tsinghua",
+    internalUrl: "/writing/tsinghua",
   },
   {
     title: "10 lessons from 3 months at an early-stage start up",
     emoji: "🚀",
-    internalUrl: "/blogs/startup-lessons",
+    internalUrl: "/writing/startup-lessons",
   },
   {
     title: "Five life lessons from my first half-marathon",
     emoji: "🏃🏽‍♂️",
-    internalUrl: "/blogs/half-marathon",
+    internalUrl: "/writing/half-marathon",
   },
 ];
 

@@ -45,11 +45,11 @@ const Index = () => {
               Experience
             </Link>
             <span className="text-muted-foreground">•</span>
-            <Link to="/blogs" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
+            <Link to="/writing" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
               Writing
             </Link>
             <span className="text-muted-foreground">•</span>
-            <Link to="/consumption" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
+            <Link to="/consuming" className="underline underline-offset-4 hover:opacity-70 transition-opacity">
               Consuming
             </Link>
             <span className="text-muted-foreground">•</span>

@@ -6,7 +6,7 @@ const BlogGraduatedYoungest = () => {
       <div className="max-w-md mx-auto px-6 py-12 md:py-20">
         {/* Back Link */}
         <Link
-          to="/blogs"
+          to="/writing"
           className="inline-flex items-center gap-1 text-xs underline underline-offset-4 hover:opacity-70 transition-opacity"
         >
           ← Back
