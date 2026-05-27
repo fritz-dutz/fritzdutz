@@ -8,12 +8,10 @@ Personal website — bio, experience, writing & media consumption.
 
 ## Stack
 
-| | |
-|---|---|
-| **Framework** | React 18 + TypeScript |
-| **Styling** | Tailwind CSS + shadcn/ui |
-| **Build** | Vite |
-| **Deployment** | Vercel |
+- **Framework** — React 18 + TypeScript
+- **Styling** — Tailwind CSS + shadcn/ui
+- **Build** — Vite
+- **Deployment** — Vercel
 
 ## Pages
 
