@@ -19,8 +19,8 @@ Personal website — bio, experience, writing & media consumption.
 |---|---|
 | `/` | Home — bio, stats & links |
 | `/experience` | Work history & side projects |
-| `/blogs` | Writing |
-| `/consumption` | Books, podcasts & media |
+| `/writing` | Writing |
+| `/consuming` | Books, podcasts & media |
 
 ## Running locally
 
@@ -49,3 +49,7 @@ fritzdutz/
         ├── Experience.tsx
         └── Index.tsx
 ```
+
+---
+
+Made with ♥ from Berlin
