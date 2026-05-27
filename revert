@@ -1,0 +1,4 @@
+git checkout main          # or the branch this is on
+git pull                   # sync with GitHub
+git revert 3a100c1         # undo the bad commit
+git push
