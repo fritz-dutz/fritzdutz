@@ -6,11 +6,11 @@ import StatsTable from "@/components/StatsTable";
 const Index = () => {
 
   return (
-    <div className="h-screen overflow-hidden bg-background text-foreground">
-      <div className="max-w-md mx-auto px-6 py-8 md:py-14">
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="max-w-md mx-auto px-6 py-12 md:py-20">
         <Logo />
 
-        <div className="mt-6 space-y-4">
+        <div className="mt-10 space-y-6">
           <p className="text-xs leading-relaxed">
             <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ <a href="https://nap.vc/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">NAP</a>.
           </p>
