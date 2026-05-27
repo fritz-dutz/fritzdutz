@@ -26,15 +26,15 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/writing" element={<Blogs />} />
           <Route path="/blogs/super-analyst" element={<BlogSuperAnalyst />} />
-          <Route path="/blogs/ivan-browser" element={<BlogIvanBrowser />} />
-          <Route path="/blogs/graduated-youngest" element={<BlogGraduatedYoungest />} />
+          <Route path="/blogs/browser" element={<BlogIvanBrowser />} />
+          <Route path="/blogs/youngest-grad-learnings" element={<BlogGraduatedYoungest />} />
           <Route path="/blogs/ms-karen" element={<BlogMsKaren />} />
           <Route path="/blogs/startup-lessons" element={<BlogStartupLessons />} />
           <Route path="/blogs/half-marathon" element={<BlogHalfMarathon />} />
           <Route path="/blogs/tsinghua" element={<BlogTsinghua />} />
-          <Route path="/consumption" element={<Consumption />} />
+          <Route path="/consuming" element={<Consumption />} />
           <Route path="/experience" element={<Experience />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
