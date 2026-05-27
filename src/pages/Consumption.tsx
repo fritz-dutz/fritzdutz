@@ -12,6 +12,7 @@ const readingAndListening = [
   { name: "Jannik Schilling", url: "https://www.jannikschilling.com/writing/", description: "" },
   { name: "Uncapped with Jack Altman", url: "https://uncappedpod.com", description: "" },
   { name: "Lenny's Podcast", url: "https://www.lennysnewsletter.com/podcast", description: "" },
+  { name: "Dialectic", url: "https://www.dialectic.fm/", description: "" },
 ];
 
 const standOuts = [
