@@ -28,7 +28,16 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            I occasionally write longer blogs — you can find them under Writing.
+            I occasionally write longer blogs about all sorts myself. If that interests you, you can be notified by clicking{" "}
+            <a
+              href="https://fritzd.notion.site/32aed47507e18010b2b5f19774b713c2?pvs=105"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold hover:opacity-70 transition-opacity"
+            >
+              here
+            </a>
+            .
           </p>
 
           <div className="flex items-center gap-2 text-xs">
