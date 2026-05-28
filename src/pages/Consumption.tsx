@@ -5,6 +5,7 @@ const peopleIAdmire = [
   { name: "Anthony Bourdain", url: "https://www.youtube.com/watch?v=vPlPKlCzsrw", description: "" },
   { name: "Madeline Lawrence", url: "https://x.com/madelinelawren", description: "" },
   { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
+  { name: "Steph Ango", url: "https://stephango.com/", description: "" },
 ];
 
 const readingAndListening = [
