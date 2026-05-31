@@ -6,7 +6,7 @@ const peopleIAdmire = [
   { name: "Madeline Lawrence", url: "https://x.com/madelinelawren", description: "" },
   { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
   { name: "Steph Ango", url: "https://stephango.com/", description: "" },
-  { name: "Farza", url: "https://farza.com/", description: "" },
+  { name: "Farza Majeed", url: "https://farza.com/", description: "" },
 ];
 
 const readingAndListening = [
