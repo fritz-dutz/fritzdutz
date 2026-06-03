@@ -7,6 +7,7 @@ const peopleIAdmire = [
   { name: "Andy Zingler", url: "https://www.instagram.com/andyzingler/", description: "" },
   { name: "Steph Ango", url: "https://stephango.com/", description: "" },
   { name: "Farza Majeed", url: "https://farza.com/", description: "" },
+  { name: "Carl Pei", url: "https://x.com/getpeid", description: "" },
 ];
 
 const readingAndListening = [
