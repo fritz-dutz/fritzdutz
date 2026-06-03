@@ -27,7 +27,7 @@ const standOuts = [
   { name: "The art of being unreachable by Alexis McElroy", url: "https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable", description: "" },
   { name: "The epidemic of wasted talent by Alex McCann", url: "https://open.substack.com/pub/thestillwandering/p/the-epidemic-of-wasted-talent", description: "" },
   { name: "How to make something great by Ryo Lu", url: "https://ryolu.notion.site/how-to-make-something-great", description: "" },
-  { name: "The Future of UI: the end of the average user by Breno Frias", url: "https://www.linkedin.com/pulse/future-ui-end-average-user-breno-frias-k5rgc/", description: "" },
+  { name: "The end of the average user by Breno Frias", url: "https://www.linkedin.com/pulse/future-ui-end-average-user-breno-frias-k5rgc/", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
