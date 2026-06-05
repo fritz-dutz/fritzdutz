@@ -8,6 +8,7 @@ const peopleIAdmire = [
   { name: "Steph Ango", url: "https://stephango.com/", description: "" },
   { name: "Farza Majeed", url: "https://farza.com/", description: "" },
   { name: "Carl Pei", url: "https://x.com/getpeid", description: "" },
+  { name: "Erik Magnussen", url: "https://erikmagnussen.com/designs/", description: "" },
 ];
 
 const readingAndListening = [
