@@ -24,7 +24,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Roots in Germany & Thailand, but raised in Ho Chi Minh City. Born a total foodie, I document what I eat <a href="https://www.instagram.com/pantrybyfritz/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-70 transition-opacity">@pantrybyfritz</a> on Instagram.
+            Roots in Germany & Thailand, but raised in Ho Chi Minh City. Born a total foodie, I document what I eat <a href="https://www.instagram.com/pantrybyfritz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">@pantrybyfritz</a> on Instagram.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
