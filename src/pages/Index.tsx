@@ -16,7 +16,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            <a href="https://nap.vc/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">NAP</a> is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe - often pre-product, pre-revenue.
+            NAP is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe - often pre-product, pre-revenue.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
