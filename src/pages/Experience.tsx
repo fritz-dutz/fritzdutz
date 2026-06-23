@@ -25,7 +25,7 @@ const experience: ExperienceItem[] = [
     company: "Enpal",
     url: "https://www.enpal.de/",
     role: "Growth",
-    description: "Worked under Julius (YC F25 Founder) & Dr. Constantin Steigmiller",
+    description: "Worked under Dr. Constantin Steigmiller & Julius Körfgen (YC F25)",
   },
   {
     company: "Colonia",
