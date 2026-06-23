@@ -24,13 +24,13 @@ const experience: ExperienceItem[] = [
   {
     company: "Enpal",
     url: "https://www.enpal.de/",
-    role: "Operations CGO Office",
+    role: "Growth",
     description: "Worked under Julius (YC F25 Founder) & Dr. Constantin Steigmiller",
   },
   {
     company: "Colonia",
     url: "https://checkandrent.com/",
-    role: "RevOps & Product",
+    role: "Product",
     description: "Worked under Founders, Jakob Sadoun & Kaspar Filipp",
   },
 ];
