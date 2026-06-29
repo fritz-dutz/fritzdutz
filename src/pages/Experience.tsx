@@ -13,7 +13,7 @@ const experience: ExperienceItem[] = [
     company: "NAP",
     url: "https://www.nap.vc/",
     role: "Investment Team",
-    description: "Working hard at my dream job",
+    description: "Worked under Claude Ritter (FSE: DHER) & Stefan Walter",
   },
   {
     company: "Investa",
