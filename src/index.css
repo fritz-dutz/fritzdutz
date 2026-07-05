@@ -50,3 +50,29 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .tg-link {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .tg-link::after {
+    content: "Target Global";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, #00ff88, #00d4ff, #bf5fff, #ff2dab);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    white-space: nowrap;
+  }
+
+  .tg-link:hover::after {
+    opacity: 1;
+  }
+}

@@ -12,15 +12,24 @@ const Index = () => {
 
         <div className="mt-10 space-y-6">
           <p className="text-xs leading-relaxed">
-            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Visiting Investor @ <a href="https://nap.vc/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">NAP</a>.
+            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Currently Investor @{" "}
+            <a
+              href="https://targetglobal.vc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tg-link"
+            >
+              Target Global
+            </a>
+            .
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            NAP is a Berlin-based pre-seed & seed VC investing €1–4m in enterprise tech across Europe - often pre-product, pre-revenue.
+            Target Global is a global seed & series A VC investing into category defining tech companies.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Previously worked heavily on the Operator side, with stints at Enpal, Colonia & Investa and studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
+            Before starting my career in Venture with NAP, I spent time on the operating side at Enpal, Colonia & Investa. Studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
