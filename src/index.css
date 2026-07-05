@@ -51,28 +51,23 @@ All colors MUST be HSL.
   }
 }
 
+@keyframes tg-shimmer {
+  0%   { background-position: 100% }
+  50%  { background-position: 0% }
+  100% { background-position: 100% }
+}
+
 @layer components {
   .tg-link {
-    position: relative;
     text-decoration: none;
     color: inherit;
   }
 
-  .tg-link::after {
-    content: "Target Global";
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: linear-gradient(90deg, #00ff88, #00d4ff, #bf5fff, #ff2dab);
+  .tg-link:hover {
+    background: linear-gradient(45deg, #1745d6 0%, #008c4a 45%, #fa910a 100%) 0 0 / 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    white-space: nowrap;
-  }
-
-  .tg-link:hover::after {
-    opacity: 1;
+    animation: tg-shimmer 3s ease infinite;
   }
 }

@@ -29,7 +29,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Before starting my career in Venture with NAP, I spent time on the operating side at Enpal, Colonia & Investa. Studied at both the EBS Universität für Wirtschaft & Recht, as well as Tsinghua University in Beijing.
+            Before starting my career in Venture with NAP, I spent time on the operating side at Enpal, Colonia & Investa. Studied at both the EBS Universität für Wirtschaft & Recht and Tsinghua in Beijing.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
