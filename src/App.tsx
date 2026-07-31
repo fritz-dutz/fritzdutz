@@ -15,6 +15,7 @@ import BlogSuperAnalyst from "./pages/blog/SuperAnalyst";
 import BlogIvanBrowser from "./pages/blog/IvanBrowser";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/writing/tsinghua" element={<BlogTsinghua />} />
           <Route path="/consuming" element={<Consumption />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
