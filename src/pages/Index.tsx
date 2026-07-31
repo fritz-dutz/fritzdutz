@@ -37,16 +37,15 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            I occasionally write longer blogs about all sorts myself. If that interests you, you can be notified by clicking{" "}
-            <a
-              href="https://fritzd.notion.site/32aed47507e18010b2b5f19774b713c2?pvs=105"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold hover:opacity-70 transition-opacity"
-            >
-              here
+            I occasionally write longer{" "}
+            <a href="https://fritzd.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+              blogs
             </a>
-            .
+            {" "}about all sorts myself. I also host regular events at{" "}
+            <a href="https://venture-house.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+              home
+            </a>
+            {" "}with sam & elian.
           </p>
 
           <div className="flex items-center gap-2 text-xs">
