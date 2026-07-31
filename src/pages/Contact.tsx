@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const contacts = [
   { label: "X", url: "https://x.com/fritz_dutz" },
   { label: "Git", url: "https://github.com/fritz-dutz" },
-  { label: "LinkedIn", url: "https://www.linkedin.com/in/fritz-dutz/" },
+  { label: "LI", url: "https://www.linkedin.com/in/fritz-dutz/" },
   { label: "Email", url: "mailto:dutzfrederick@gmail.com" },
 ];
 
