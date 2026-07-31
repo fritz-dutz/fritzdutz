@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const contacts = [
-  { label: "Email", url: "mailto:dutzfrederick@gmail.com" },
-  { label: "LinkedIn", url: "https://www.linkedin.com/in/fritz-dutz/" },
   { label: "X", url: "https://x.com/fritz_dutz" },
   { label: "Git", url: "https://github.com/fritz-dutz" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/fritz-dutz/" },
+  { label: "Email", url: "mailto:dutzfrederick@gmail.com" },
 ];
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
         </Link>
 
         <div className="mt-10">
-          <p className="text-xs text-muted-foreground mb-4">Places</p>
+          <p className="text-xs text-muted-foreground mb-4">Let's connect</p>
 
           <div className="border-t border-border pt-4 flex flex-wrap gap-6">
             {contacts.map((item, index) => (
