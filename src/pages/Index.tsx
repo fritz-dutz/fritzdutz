@@ -45,7 +45,7 @@ const Index = () => {
             <a href="https://venture-house.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
               home
             </a>
-            {" "}with sam & elian.
+            {" "}with Sam & Elian.
           </p>
 
           <div className="flex items-center gap-2 text-xs">
