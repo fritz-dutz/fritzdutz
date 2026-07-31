@@ -19,8 +19,9 @@ const Contact = () => {
         </Link>
 
         <div className="mt-10">
-          <p className="text-xs text-muted-foreground mb-4">reach out to me:</p>
-          <div className="flex flex-wrap gap-6">
+          <p className="text-xs text-muted-foreground mb-4">Places</p>
+
+          <div className="border-t border-border pt-4 flex flex-wrap gap-6">
             {contacts.map((item, index) => (
               <a
                 key={index}
