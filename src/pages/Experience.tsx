@@ -31,7 +31,10 @@ const experience: ExperienceItem[] = [
     company: "Enpal",
     url: "https://www.enpal.de/",
     role: "Growth",
-    description: "Worked under Dr. Constantin Steigmiller & Julius Körfgen (YC F25)",
+    description: <>
+      <span className="hidden md:inline">Worked under Dr. Constantin Steigmiller & Julius Körfgen (YC F25)</span>
+      <span className="md:hidden">Worked under Dr. Steigmiller & Julius Körfgen (YC F25)</span>
+    </>,
   },
   {
     company: "Colonia",
