@@ -10,6 +10,12 @@ interface ExperienceItem {
 
 const experience: ExperienceItem[] = [
   {
+    company: "Target Global",
+    url: "https://www.targetglobal.vc/",
+    role: "Investment Team",
+    description: "Working hard finding asymmetric outliers",
+  },
+  {
     company: "NAP",
     url: "https://www.nap.vc/",
     role: "Investment Team",
