@@ -29,7 +29,7 @@ const standOuts = [
   { name: "The epidemic of wasted talent by Alex McCann", url: "https://open.substack.com/pub/thestillwandering/p/the-epidemic-of-wasted-talent", description: "" },
   { name: "How to make something great by Ryo Lu", url: "https://ryolu.notion.site/how-to-make-something-great", description: "" },
   { name: "The end of the average user by Breno Frias", url: "https://www.linkedin.com/pulse/future-ui-end-average-user-breno-frias-k5rgc/", description: "" },
-  { name: "How Companies Are Building Their Own Intelligence by Sonya Huang", url: "https://youtu.be/bMMv0bZzONg?si=ZTTPV7zdmM7sSq-x", description: "" },
+  { name: "Own Your Intelligence by Sonya Huang", url: "https://youtu.be/bMMv0bZzONg?si=ZTTPV7zdmM7sSq-x", description: "" },
 ];
 
 const Section = ({ title, items }: { title: string; items: { name: string; url?: string; description: string }[] }) => (
