@@ -41,7 +41,7 @@ const Index = () => {
             <a href="https://fritzd.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
               blogs
             </a>
-            {" "}about all sorts myself. I also host regular events at{" "}
+            {" "}about all sorts myself. I also host events at{" "}
             <a href="https://www.quilterr.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
               home
             </a>
