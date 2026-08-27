@@ -49,11 +49,6 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
-
-  ::selection {
-    background: transparent;
-    color: hsl(40 20% 60%);
-  }
 }
 
 @keyframes tg-shimmer {
