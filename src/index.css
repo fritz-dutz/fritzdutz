@@ -51,7 +51,7 @@ All colors MUST be HSL.
   }
 
   ::selection {
-    background: hsl(19 56% 40%);
+    background: hsl(24 48% 29% / 0.75);
     color: hsl(40 20% 95%);
   }
 }
