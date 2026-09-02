@@ -9,7 +9,7 @@ const peopleIAdmire = [
   { name: "Farza Majeed", url: "https://farza.com/", description: "" },
   { name: "Carl Pei", url: "https://x.com/getpeid", description: "" },
   { name: "Erik Magnussen", url: "https://erikmagnussen.com/designs/", description: "" },
-  { name: "Ms. Karen", url: "https://fritzd.substack.com/p/a-message-to-mskaren", description: "" },
+  { name: "Ms Karen", url: "https://fritzd.substack.com/p/a-message-to-mskaren", description: "" },
 ];
 
 const readingAndListening = [
