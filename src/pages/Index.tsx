@@ -33,16 +33,16 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Roots in Germany & Thailand, but raised in Ho Chi Minh City. Born a total foodie, I document what I eat <a href="https://www.instagram.com/pantrybyfritz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">@pantrybyfritz</a> on Instagram.
+            Roots in Germany & Thailand, but raised in Ho Chi Minh City. Born a total foodie, I document what I eat <a href="https://www.instagram.com/pantrybyfritz/" target="_blank" rel="noopener noreferrer" className="ink">@pantrybyfritz</a> on Instagram.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
             I occasionally write longer{" "}
-            <a href="https://fritzd.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+            <a href="https://fritzd.substack.com/" target="_blank" rel="noopener noreferrer" className="ink">
               blogs
             </a>
             {" "}about all sorts myself. I also host events at{" "}
-            <a href="https://www.quilterr.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">
+            <a href="https://www.quilterr.com/" target="_blank" rel="noopener noreferrer" className="ink">
               home
             </a>
             {" "}with Sam & Elian.

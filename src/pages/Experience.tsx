@@ -25,7 +25,7 @@ const experience: ExperienceItem[] = [
     company: "Investa",
     url: "https://investa.de/",
     role: "Special Projects",
-    description: <>Worked under Dr. Christian Meine & <a href="https://danielgroner.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Daniel Groner</a></>,
+    description: <>Worked under Dr. Christian Meine & <a href="https://danielgroner.com/" target="_blank" rel="noopener noreferrer" className="ink">Daniel Groner</a></>,
   },
   {
     company: "Enpal",

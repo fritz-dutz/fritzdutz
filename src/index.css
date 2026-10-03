@@ -63,12 +63,35 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  .tg-link {
-    text-decoration: none;
+  /* Inline links inside prose. A 1px rule at 30% of the text colour —
+     legible as a link, quiet enough to read past. Hover brings it to
+     full strength rather than fading the text. */
+  .ink {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: hsl(var(--foreground) / 0.3);
     color: inherit;
+    transition: text-decoration-color 0.15s ease;
+  }
+
+  .ink:hover {
+    text-decoration-color: hsl(var(--foreground));
+  }
+
+  /* Target Global carries the same rule at rest, then hands off to the
+     gradient on hover — the underline clears so the shimmer stands alone. */
+  .tg-link {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: hsl(var(--foreground) / 0.3);
+    color: inherit;
+    transition: text-decoration-color 0.15s ease;
   }
 
   .tg-link:hover {
+    text-decoration-color: transparent;
     background: linear-gradient(45deg, #1745d6 0%, #008c4a 45%, #fa910a 100%) 0 0 / 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
