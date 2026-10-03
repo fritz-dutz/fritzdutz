@@ -63,29 +63,33 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Inline links inside prose. A 1px rule at 30% of the text colour —
-     legible as a link, quiet enough to read past. Hover brings it to
-     full strength rather than fading the text. */
+  /* Inline links inside prose. A thick bar sitting on the baseline at
+     very low opacity — you read it as a shape, not a rule. On hover it
+     takes the ::selection brown, so pointing at a link looks like you
+     highlighted the word. skip-ink is off so descenders don't punch
+     holes in the bar. */
   .ink {
     text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-    text-decoration-color: hsl(var(--foreground) / 0.3);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0px;
+    text-decoration-skip-ink: none;
+    text-decoration-color: hsl(var(--foreground) / 0.16);
     color: inherit;
     transition: text-decoration-color 0.15s ease;
   }
 
   .ink:hover {
-    text-decoration-color: hsl(var(--foreground));
+    text-decoration-color: hsl(24 48% 29% / 0.75);
   }
 
-  /* Target Global carries the same rule at rest, then hands off to the
-     gradient on hover — the underline clears so the shimmer stands alone. */
+  /* Target Global carries the same bar at rest, then hands off to the
+     gradient on hover — the bar clears so the shimmer stands alone. */
   .tg-link {
     text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-    text-decoration-color: hsl(var(--foreground) / 0.3);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0px;
+    text-decoration-skip-ink: none;
+    text-decoration-color: hsl(var(--foreground) / 0.16);
     color: inherit;
     transition: text-decoration-color 0.15s ease;
   }
