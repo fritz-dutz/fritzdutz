@@ -28,7 +28,7 @@ const Contact = () => {
                 href={item.url}
                 target={item.url.startsWith("mailto") ? undefined : "_blank"}
                 rel="noopener noreferrer"
-                className="text-xs underline underline-offset-4 hover:opacity-70 transition-opacity"
+                className="text-xs hover:opacity-70 transition-opacity"
               >
                 {item.label}
               </a>
