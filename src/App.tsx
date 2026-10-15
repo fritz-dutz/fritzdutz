@@ -13,6 +13,7 @@ import BlogHalfMarathon from "./pages/blog/HalfMarathon";
 import BlogTsinghua from "./pages/blog/Tsinghua";
 import BlogSuperAnalyst from "./pages/blog/SuperAnalyst";
 import BlogIvanBrowser from "./pages/blog/IvanBrowser";
+import BlogTechOptimism from "./pages/blog/TechOptimism";
 import Consumption from "./pages/Consumption";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/writing" element={<Blogs />} />
           <Route path="/writing/super-analyst" element={<BlogSuperAnalyst />} />
           <Route path="/writing/ivan-browser" element={<BlogIvanBrowser />} />
+          <Route path="/writing/tech-optimism" element={<BlogTechOptimism />} />
           <Route path="/writing/graduated-youngest" element={<BlogGraduatedYoungest />} />
           <Route path="/writing/ms-karen" element={<BlogMsKaren />} />
           <Route path="/writing/startup-lessons" element={<BlogStartupLessons />} />

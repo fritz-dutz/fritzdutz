@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    title: "tech optimism & where I draw the line",
+    emoji: "🧞‍♀️",
+    internalUrl: "/writing/tech-optimism",
+  },
+  {
     title: "If Ivan Zhao built a browser",
     emoji: "💾",
     internalUrl: "/writing/ivan-browser",
