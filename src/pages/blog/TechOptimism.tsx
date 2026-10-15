@@ -12,7 +12,7 @@ const BlogTechOptimism = () => {
 
         <div className="mt-10 space-y-3">
           <p className="text-xs text-muted-foreground">October 15, 2026</p>
-          <h1 className="font-medium text-sm">tech optimism &amp; where I draw the line</h1>
+          <h1 className="font-medium text-sm">Tech optimism &amp; where I draw the line</h1>
 
           <p className="text-xs leading-relaxed">
             As someone who gets to allocate capital and has a small influence in the advancement of breakthrough technologies. I've been thinking about where I would like to see AI play more of a role and where I draw my line. I would describe myself as a tech optimist, which for me means that I focus more on how technology can change the world and am more blinded about the negative impacts it may have.

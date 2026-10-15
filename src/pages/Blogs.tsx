@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    title: "tech optimism & where I draw the line",
+    title: "Tech optimism & where I draw the line",
     emoji: "🧞‍♀️",
     internalUrl: "/writing/tech-optimism",
   },
