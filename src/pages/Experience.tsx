@@ -13,7 +13,7 @@ const experience: ExperienceItem[] = [
     company: "Target Global",
     url: "https://www.targetglobal.vc/",
     role: "Investment Team",
-    description: "Working hard finding futurists building their world model",
+    description: "Working hard finding futurists building their world",
   },
   {
     company: "NAP",
