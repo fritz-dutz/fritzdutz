@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ReactNode } from "react";
+import { Trophy } from "lucide-react";
 
 interface ExperienceItem {
   company: string;
@@ -44,11 +45,19 @@ const experience: ExperienceItem[] = [
   },
 ];
 
-const projects = [
+interface ProjectItem {
+  name: string;
+  url: string;
+  description: string;
+  award?: string;
+}
+
+const projects: ProjectItem[] = [
   {
     name: "Clio",
     url: "https://github.com/inin-zou/Clio",
     description: "Voice AI agent handling inbound insurance claim calls",
+    award: "Hackathon winner",
   },
   {
     name: "Wiggle",
@@ -104,8 +113,16 @@ const Experience = () => {
                 key={index}
                 className="py-4 border-b border-border"
               >
-                <h3 className="text-xs font-medium leading-snug">
+                <h3 className="text-xs font-medium leading-snug flex items-center gap-1.5">
                   <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">{item.name}</a>
+                  {item.award && (
+                    <Trophy
+                      className="h-3 w-3 shrink-0 text-white"
+                      strokeWidth={2.25}
+                      role="img"
+                      aria-label={item.award}
+                    />
+                  )}
                 </h3>
                 <p className="text-xs text-muted-foreground mt-1">{item.description}</p>
               </div>
