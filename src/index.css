@@ -73,7 +73,7 @@ All colors MUST be HSL.
     text-decoration-thickness: 3px;
     text-underline-offset: 0px;
     text-decoration-skip-ink: none;
-    text-decoration-color: hsl(var(--foreground) / 0.16);
+    text-decoration-color: hsl(212 10% 70% / 0.20);
     color: inherit;
     transition: text-decoration-color 0.15s ease;
   }
@@ -82,21 +82,21 @@ All colors MUST be HSL.
     text-decoration-color: hsl(24 48% 29% / 0.75);
   }
 
-  /* OneTarget carries the same bar at rest, then hands off to the
-     gradient on hover — the bar clears so the shimmer stands alone. */
+  /* Granite underline at rest, handing off to a stone shimmer on hover:
+     wet asphalt into a mica highlight and back to dry granite. */
   .tg-link {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 0px;
     text-decoration-skip-ink: none;
-    text-decoration-color: hsl(var(--foreground) / 0.16);
+    text-decoration-color: hsl(212 10% 70% / 0.20);
     color: inherit;
     transition: text-decoration-color 0.15s ease;
   }
 
   .tg-link:hover {
     text-decoration-color: transparent;
-    background: linear-gradient(45deg, #1745d6 0%, #008c4a 45%, #fa910a 100%) 0 0 / 300% 100%;
+    background: linear-gradient(45deg, #6B737B 0%, #CBD2D8 45%, #8F979F 100%) 0 0 / 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
