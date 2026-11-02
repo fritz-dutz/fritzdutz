@@ -25,7 +25,7 @@ const Index = () => {
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            OneTarget is a global seed & series A VC investing into category defining tech companies.
+            OneTarget (formerly Target Global) is a global seed & series A VC investing into category defining tech companies.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
