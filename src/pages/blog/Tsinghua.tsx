@@ -72,6 +72,17 @@ const BlogTsinghua = () => {
             <p className="text-xs leading-relaxed italic text-center">
               fav city in china (chongqing)
             </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/what-i-learned-during-my-semester"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
           </div>
         </div>
       </div>

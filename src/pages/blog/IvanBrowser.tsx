@@ -58,6 +58,17 @@ const BlogIvanBrowser = () => {
           <p className="text-xs leading-relaxed">
             Just my initial thoughts. Currently using Dia, but could use something better.
           </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/if-ivan-zhao-built-a-browser"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
         </div>
       </div>
     </div>);

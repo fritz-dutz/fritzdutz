@@ -40,6 +40,17 @@ const BlogMsKaren = () => {
             <p className="text-xs leading-relaxed">
               To all the OFW who have to make such a difficult decision, I am so inspired by your courage, strength, and mission. Thank you for the lives you have changed, and I wish that the blessings you've given others, come a thousand times better back at you.
             </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/a-message-to-mskaren"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
           </div>
         </div>
       </div>

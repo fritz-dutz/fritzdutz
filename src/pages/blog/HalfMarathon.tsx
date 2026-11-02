@@ -59,6 +59,17 @@ const BlogHalfMarathon = () => {
             <p className="text-xs leading-relaxed italic">
               (Dan - thank you for being there with me on my first 10k, 18k, 21k)
             </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/five-life-lessons-from-my-first-half"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
           </div>
         </div>
       </div>

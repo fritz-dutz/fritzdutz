@@ -69,6 +69,17 @@ const BlogTechOptimism = () => {
           <p className="text-xs leading-relaxed">
             I do understand that driving AI adoption across hundreds of industries will lead to a good amount of jobs being replaced and maybe certain mundane/repetitive tasks may be good to have - but, this could also mean that we need to be pouring more resources into up-skilling people and making them aware of what is possible and what is to come. I don't want to invest into another crm or note-taking tool, but something that leverages AI for the better good of the world.
           </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/tech-optimism-and-where-i-draw-the"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
         </div>
       </div>
     </div>);

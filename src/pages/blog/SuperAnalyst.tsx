@@ -77,6 +77,17 @@ const BlogSuperAnalyst = () => {
           <p className="text-xs leading-relaxed">
             3. After a lunch with our GP, <a href="https://www.linkedin.com/in/critter/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Claude</a>, I believe a strong lever to becoming a Super analyst - is to know how to use all the relevant tools to becoming 10x. The Junior layer will never fully go away, but the sole number of juniors will significantly shrink and this is a way to truly stand out.
           </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/the-super-analyst"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
         </div>
       </div>
     </div>);

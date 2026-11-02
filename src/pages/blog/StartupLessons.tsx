@@ -62,6 +62,17 @@ const BlogStartupLessons = () => {
             <p className="text-xs leading-relaxed">
               <strong>Lesson 10 - Software you might not know:</strong> Hotjar - Great tool to see how customers use your website and where they spend the majority of their time. InClued.ai - A tool to make sure your Posts and JDs are Gender Neutral. Dripify - Automate your LinkedIn outreach, may this be for Hiring, Fundraising or Sales (I managed to secure 15 interviews within 14 days for the Founder).
             </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/10-lessons-from-3-months-at-an-early"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
           </div>
         </div>
       </div>

@@ -104,6 +104,17 @@ const BlogGraduatedYoungest = () => {
             <p className="text-xs leading-relaxed">
               See ya (uni was dope & I learnt a lot!)
             </p>
+          <p className="text-xs leading-relaxed pt-2">
+            <a
+              href="https://fritzd.substack.com/p/graduated-youngest-in-my-class-and"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              Read on Substack
+            </a>
+          </p>
+
           </div>
         </div>
       </div>
