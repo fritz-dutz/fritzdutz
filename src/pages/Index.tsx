@@ -14,18 +14,18 @@ const Index = () => {
           <p className="text-xs leading-relaxed">
             <span className="font-semibold">Fritz Dutz.</span> 21 years old. Investor @{" "}
             <a
-              href="https://targetglobal.vc"
+              href="https://onetarget.vc"
               target="_blank"
               rel="noopener noreferrer"
               className="tg-link"
             >
-              Target Global
+              OneTarget
             </a>
             .
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">
-            Target Global is a global seed & series A VC investing into category defining tech companies.
+            OneTarget is a global seed & series A VC investing into category defining tech companies.
           </p>
 
           <p className="text-xs leading-relaxed text-foreground/90">

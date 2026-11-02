@@ -82,7 +82,7 @@ All colors MUST be HSL.
     text-decoration-color: hsl(24 48% 29% / 0.75);
   }
 
-  /* Target Global carries the same bar at rest, then hands off to the
+  /* OneTarget carries the same bar at rest, then hands off to the
      gradient on hover — the bar clears so the shimmer stands alone. */
   .tg-link {
     text-decoration: underline;
