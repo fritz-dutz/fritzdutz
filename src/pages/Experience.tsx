@@ -113,12 +113,12 @@ const Experience = () => {
                 key={index}
                 className="py-4 border-b border-border"
               >
-                <h3 className="text-xs font-medium leading-snug flex items-center gap-1.5">
+                <h3 className="text-xs font-medium leading-snug flex items-baseline gap-1.5">
                   <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">{item.name}</a>
                   {item.award && (
                     <Trophy
-                      className="h-3 w-3 shrink-0 text-white"
-                      strokeWidth={2.25}
+                      className="h-2.5 w-2.5 shrink-0 text-white"
+                      strokeWidth={2.5}
                       role="img"
                       aria-label={item.award}
                     />
