@@ -12,7 +12,7 @@ const Index = () => {
 
         <div className="mt-10 space-y-6">
           <p className="text-xs leading-relaxed">
-            <span className="font-semibold">Fritz Dutz.</span> 21 years old. Investor @{" "}
+            <span className="font-semibold">Fritz Dutz.</span> Investor @{" "}
             <a
               href="https://onetarget.vc"
               target="_blank"
